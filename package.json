@@ -1,0 +1,25 @@
+{
+    "name": "geto_members_ql_api",
+    "version": "1.0.0",
+    "description": "Geto members API with Graphql",
+    "main": "index.js",
+    "repository": "https://github.com/youbhd1/geto_members_ql",
+    "author": "youbhd1<youbhd1@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js --exec babel-node"
+    },
+    "keywords": [],
+    "dependencies": {
+        "apollo-server-express": "^2.8.1",
+        "axios": "^0.19.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "graphql": "^14.4.2",
+        "graphql-tools": "^4.0.5",
+        "nodemon": "^1.19.1"
+    }
+}
